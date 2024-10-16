@@ -1,5 +1,7 @@
 //fazendo comentário fora da função 
 
+import MyComponent from "./MyComponent";
+
 const FirstComponent = () =>{
 
     //comentário dentro da função
@@ -11,6 +13,7 @@ const FirstComponent = () =>{
 
             <h1>Meu primeiro componente</h1>
             <p className="teste">Meu texto</p>
+            <MyComponent></MyComponent>
         </div>
     );
 };
